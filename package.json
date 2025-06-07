@@ -2,7 +2,7 @@
   "name": "growth-marketing-manager-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://alexdev.github.io/growth-marketing-manager-portfolio",
+  "homepage": "https://github.com/clyne424/growth-marketing-manager-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
