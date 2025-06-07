@@ -1,0 +1,35 @@
+.title_intro {
+    font-family: 'Amethysta', serif;
+    font-weight: 700;
+    color: #243271;
+    font-size: 3.5rem;
+    border-bottom: none;
+    text-decoration: none;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+.profile-overview-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+  }
+
+.profile-image-wrapper {
+    flex-shrink: 0;
+}
+
+.profile-image {
+    width: 300px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 6px 24px rgba(40,48,64,0.10);
+    background: #eee;
+    border: 6px solid #fff;
+}
+
+.profile-text {
+    flex: 1;
+    padding-top: 16px;
+}

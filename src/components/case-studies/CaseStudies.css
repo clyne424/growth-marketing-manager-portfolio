@@ -1,0 +1,27 @@
+.case-list {
+    list-style-type: none;
+    padding-left: 1.5em;
+    color: #54423d;
+}
+
+.case-list li {
+    margin-bottom: 2.2em;
+}
+
+.item-title {
+    font-weight: bold;
+    font-size: 1.16rem;
+    color: #b0593b;
+    margin-bottom: 0.35em;
+}
+
+.item-detail {
+    margin-left: 1em;
+    margin-bottom: 0.15em;
+    font-size: 1rem;
+    color: #463025;
+}
+
+.item-detail strong {
+    font-weight: 600;
+}
