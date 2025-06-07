@@ -2,15 +2,19 @@
   "name": "growth-marketing-manager-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://alexdev.github.io/growth-marketing-manager-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d list"
   },
   "dependencies": {
     "bootstrap": "^5.3.6",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
